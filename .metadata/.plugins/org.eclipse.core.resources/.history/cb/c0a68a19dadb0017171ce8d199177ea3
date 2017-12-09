@@ -1,0 +1,32 @@
+package quiz;
+
+import java.util.Scanner;
+
+
+public class Answer {
+	int answer(){
+		Question num = new Question();
+		int a = num.anum();
+
+		int kotae() {
+			Scanner scanner = new Scanner(System.in);
+			int ans;
+			do {
+		        ans = scanner.nextInt();
+			}while(ans < 1 || 4 < ans);
+
+			scanner.close();
+			return ans;
+		}
+
+		switch(a) {
+		case 0:
+				break;
+		case 1:
+				break;
+
+	}
+
+		return a;
+	}
+}

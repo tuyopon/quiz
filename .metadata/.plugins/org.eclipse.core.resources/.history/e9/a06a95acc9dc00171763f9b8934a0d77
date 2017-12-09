@@ -1,0 +1,12 @@
+package quiz;
+
+public class Loop {
+	void loop() {
+		int [] f = new int[3];
+
+
+
+
+	}
+
+}

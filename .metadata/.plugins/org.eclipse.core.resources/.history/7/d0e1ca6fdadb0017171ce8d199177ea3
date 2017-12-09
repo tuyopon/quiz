@@ -1,0 +1,24 @@
+package quiz;
+
+import java.util.Scanner;
+
+
+public class Answer {
+	int answer(){
+		Question num = new Question();
+		int a = num.anum();
+
+		Scanner scanner = new Scanner(System.in);
+		int kai = scanner.nextInt();
+
+		switch(a) {
+		case 0:
+				break;
+		case 1:
+				break;
+
+	}
+
+		return a;
+	}
+}
